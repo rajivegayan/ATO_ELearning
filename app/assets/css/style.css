@@ -4,6 +4,7 @@
  body {
     margin: auto 0; /* Normalizing CSS  removing the default margin from the browser*/
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
  }
 /***********************
  *  Main grid boxes 
@@ -14,11 +15,30 @@
     display:inline-block; */ /*Uses flexbox and css grids*/
     border: 1px solid #bbb;
     border-radius: 4px;
-    font-size:2em;    
+    font-size:4em;    
     cursor:pointer;
     color:#FFF;
     transition: all 0.2s linear;
 }
+/* ---------------------------------HEADER------------------------------------*/
+header {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+    margin: 0;
+    background-color: #e9e9e9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    /* width: 10vw;
+    height: 10vh; */
+    /* padding: 130px;
+    margin: 25px; */
+}
+
 /* ---------------------------------NAVIGATION------------------------------------*/
 /***************************
  *  Main grid hover effects 
@@ -29,34 +49,64 @@
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;    
 }
+
+/* .box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+} */
+
+
 /********************************************
  *  Main navigation class grid hover effects 
  ********************************************/
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.7em;
+    font-size: 0.60em;
     margin: 0;
+    background-color: #ffffff;
 }
 /***************
  *  UL LI style
  ***************/
-li {
-     padding: 20px; /* Setting a padding around a li */
+ li {
+     padding: 15px; /* Setting a padding around a li */
+} 
+
+/* Setting up the navigation seperator */
+nav li + li:before{
+    content: " | ";
+    padding: 10px 50px 30px 0;
+    color: #7070708e;
 }
 /******************************
  * Navigation anchor tag styles
  ******************************/
 a {
-    color: #faf9f9;
+    color: #2b2929;
     text-decoration: none; /* removing the link underline */
 }
-/*******************************
- *  Navigation menu Item styles
-********************************/
-.menu-items {
-    padding: 20px; /* Setting a padding around a li */
+/***************************************
+ *  Navigation menu Item styles for div
+***************************************/
+/* .menu-items {
+     padding-left: 40px; 
+     padding-bottom: 20px;
+     padding-top: 20px;
+} */
+
+.menu-items:focus, .menu-items:hover, .menu-items:active {
+    /* border: 5px solid #bbb;     */
+    border-top: 5px solid #0e8387;
+    /* border-top-color: #0e8387; */
 }
+
+/* .menu-items:active {
+    border-bottom: 4px solid red;
+    font-weight: 500;
+} */
 /**************************************
  *  Navigation menu Push right elements
 ***************************************/
@@ -64,27 +114,11 @@ a {
     margin-left: auto;
 }
 
-/**********************************************
- *  Media query for setting up the screen
- max width and setting up the font size for nav
-***********************************************/
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.5em;
-        /* padding: 0; */
-    }
-    /* .img-cover { 
-        width: 5rem;
-        height: 5rem;
-    }*/
-} 
-
-.sticky {
+.on-top {
     position: fixed;
-    top: 0;
+    top: 10%;
     width: 100%;
 }
-
 /* ----------------------------- Body Cover----------------------------------------*/
 /*******************************
  *  Body cover Item styles
@@ -125,6 +159,11 @@ a {
 .box > img {
     width: 100%;
 }
+
+
+
+
+
 /* ------------------------------Footer---------------------------------------*/
 /****************
  *  Footer styles
@@ -134,6 +173,28 @@ footer {
 }
 
 /* ---------------------------------------------------------------------*/
+
+/**********************************************
+ *  Media query for setting up the screen
+ max width and setting up the font size for nav
+***********************************************/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.4em;
+        /* padding: 0; */
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+    /* .img-cover { 
+        width: 5rem;
+        height: 5rem;
+    }*/
+} 
 /***********************************************************************
  *  Imported packages
  **********************************************************************/
