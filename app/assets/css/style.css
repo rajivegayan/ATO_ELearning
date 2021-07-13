@@ -53,6 +53,7 @@ header {
 
 .user-profile-block {
     font-size: 1.25rem;
+    padding-right: 10px;
 }
 
 .user-profile-icon > img {
