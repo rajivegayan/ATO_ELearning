@@ -1,9 +1,10 @@
 <header>   
   
-  <button class="openbtn zone" onclick="openNav()">&#9776</button>
+  <button class="openbtn zone" onclick="openNav()">&#9776;</button>
 
   <div id="mySidepanel" class="sidepanel">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+    <a href="" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">About</a>
     <a href="#">Services</a>
     <a href="#">Clients</a>
@@ -15,9 +16,11 @@
      <!-- <div class="logo"><img src="./assets/img/logo/Frame 17.png" alt="Main Logo image"></div>   -->
      <!-- <div class="logo"><img src="./assets/img/logo/Frame 17.svg" alt="Main Logo image"></div>  -->
      <div class="logo"><img src="./assets/img/logo/Frame 18.svg" alt="Main Logo image"></div> 
+
     <div class="push-right">
       <p class="user-profile-block">Welcome {{userName}}</p>
     </div>
+
     <div class="user-profile-icon">
       <img class="user-profile-img zone" src="./assets/img/icons/Male User.png" alt="User profile icon" onclick="toggleUserMenu()"> 
       <div class="dropdown">
@@ -35,4 +38,5 @@
         </div>
       </div>   
     </div>
+
 </header>
