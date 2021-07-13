@@ -1,7 +1,38 @@
-<header>    
-    <div class="logo"><img src="./assets/img/logo/Frame 10 2 (1).png" alt="Main Logo image"></div>  
+<header>   
+  
+  <button class="openbtn zone" onclick="openNav()">&#9776</button>
+
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+    <!-- <div class="logo"><img src="./assets/img/logo/Frame 10 2 (1).png" alt="Main Logo image"></div>   -->
+    <!-- <div class="logo"><img src="./assets/img/logo/Frame 16.png" alt="Main Logo image"></div> -->
+     <!-- <div class="logo"><img src="./assets/img/logo/Frame 17.png" alt="Main Logo image"></div>   -->
+     <!-- <div class="logo"><img src="./assets/img/logo/Frame 17.svg" alt="Main Logo image"></div>  -->
+     <div class="logo"><img src="./assets/img/logo/Frame 18.svg" alt="Main Logo image"></div> 
     <div class="push-right">
-      <p class="user-profile-block">Welcome to eAcademy {{userName}}</p>
+      <p class="user-profile-block">Welcome {{userName}}</p>
     </div>
-    <div class="user-profile-icon zone"><img src="./assets/img/icons/Male User.png" alt="User profile icon"></div>
-  </header>
+    <div class="user-profile-icon">
+      <img class="user-profile-img zone" src="./assets/img/icons/Male User.png" alt="User profile icon" onclick="toggleUserMenu()"> 
+      <div class="dropdown">
+        <div id="myDropdown" class="dropdown-content">        
+          <a href="#">This could be my details with image</a>
+          <hr>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <ul>
+            <li>Link 1</li>
+            <li>LInk 2</li>
+            <li>LInk 3</li>
+            <li>Link 4</li>
+          </ul>
+        </div>
+      </div>   
+    </div>
+</header>
