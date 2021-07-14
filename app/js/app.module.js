@@ -4,7 +4,8 @@
 var $atoEAcademy =  angular.module('atoEacademy', [
   'ngRoute', // Routing instruction
   'headerComponent',
-  'footerComponent'
+  'footerComponent',
+  'homeComponent',
   // 'core', // Getting core stuff :P
   // 'ngAnimate', // Animationa
 ]);

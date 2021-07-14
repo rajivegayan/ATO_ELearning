@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/menu.css">
   <link rel="stylesheet" type="text/css" href="assets/css/vertical_menu.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/home.css">
 
   <!-- Importing main fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
   <!-- Importing main angular module -->
-  <script src="lib/jquery/dist/jquery.js"></script>
+  <!-- <script src="lib/jquery/dist/jquery.js"></script> -->
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular-route/angular-route.js"></script>
   <script src="lib/angular-resource/angular-resource.js"></script>
@@ -27,7 +28,7 @@
 
   <!-- Importing main angular component modules -->
   <script type="text/javascript" src="components/header/header.component.js"></script>
-  <!-- <script type="text/javascript" src="components/header/header.component.js"></script> -->
+  <script type="text/javascript" src="components/home/home.component.js"></script>
   <script type="text/javascript" src="components/footer/footer.component.js"></script>
 
 </head>
@@ -56,9 +57,16 @@
   <!-- Navigation End-->
 
   <!-- Cover -->
-  <div class="cover-container">
-    <img src="./assets/img/undraw.png" alt="Background Image">
+  <!-- <div class="cover-container"> -->
+    <!-- <img src="./assets/img/undraw.png" alt="Background Image"> -->
+    <!-- <div class="box zone"></div>
+    <div class="box zone"></div>
+    <div class="box zone"></div>
+  </div> -->
+  <div class="main-body-container">
+    <div ng-view></div>
   </div>
+  <!-- <div ng-view></div> -->
 
   <!-- Project grid -->
   <!-- <div class="zone blue project-grid">
