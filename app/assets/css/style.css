@@ -102,16 +102,14 @@ header {
     background-color: #bbb7b79c;
 }
 
-li {
-    padding: 15px; /* Setting a padding around a li */
-} 
-
-li > a {
+/* li > a {
     text-decoration: none;
-}
+} */
 
 nav > ul > li > a {
     text-decoration: none;
+    display: block;
+    padding:12px 15px;
 }
 
 nav > ul > li:hover  {
