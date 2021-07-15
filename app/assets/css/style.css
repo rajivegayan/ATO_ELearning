@@ -246,6 +246,13 @@ footer > div > a > img {
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;    
 }
+
+.zoneoutLightBlue {
+    -webkit-box-shadow:#7ec3e2cc 0px 5px 15px, inset #a0c1d1cc 0px -10px 20px;
+    -moz-box-shadow:#7ec3e2cc 0px 5px 15px, inset #a0c1d1cc 0px -10px 20px;
+    -o-box-shadow:#7ec3e2cc 0px 5px 15px, inset #a0c1d1cc 0px -10px 20px;
+    box-shadow:#7ec3e2cc 0px 5px 15px, inset #a0c1d1cc 0px -10px 20px;    
+}
 /* ---------------------------------ZONE HOVER------------------------------------*/
 
 /***********************************************************************
