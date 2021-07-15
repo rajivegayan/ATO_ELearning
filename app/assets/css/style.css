@@ -110,6 +110,19 @@ li > a {
     text-decoration: none;
 }
 
+nav > ul > li > a {
+    text-decoration: none;
+}
+
+nav > ul > li:hover  {
+    color: #f5d815;
+}
+
+nav > ul > li > a:hover {
+    color: #f5d815;
+}
+
+
 /* ---------------------------------NAVIGATION------------------------------------*/
 
 /* ---------------------------------COVER-CONTAINER------------------------------------*/
