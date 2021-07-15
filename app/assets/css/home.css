@@ -166,5 +166,15 @@
 
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
+    .main-outer-home {
+      font-size: 0.65rem;
+    }
 
+    .sub-text {
+      font-size: 0.30em;
+    }
+
+    .topic { 
+      font-size: 0.85em;
+    }
 }
