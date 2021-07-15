@@ -1,0 +1,22 @@
+[
+	{
+        "Id": "1",
+        "firstName": "John",
+        "profileImage": "./assets/img/icons/Male User.png"
+    },
+    {
+        "Id": "2",
+        "firstName": "Mary",
+        "profileImage": "./assets/img/icons/Cat.png"
+    },
+    {
+        "Id": "3",
+        "firstName": "Bob",
+        "profileImage": "./assets/img/icons/User Male1.png"
+    },
+    {
+        "Id": "4",
+        "firstName": "Mira",
+        "profileImage": "./assets/img/icons/femaleUser2.png"
+    }
+]
