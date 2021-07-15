@@ -27,3 +27,16 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+
+/* Logging out user and reload the page hope fully for a different user */
+function logout() {
+  // /confirm("Please confirm the logout");
+  if (confirm("Are you logging out so soon !")) {
+    window.location.reload();
+    window.location.replace("http://localhost:8000/index.html#!/mylearning");
+  } else {
+    console.log("User cancelled the action");
+  }
+  // window.location.replace("http://localhost:8000/index.html#!/home");
+  
+}
