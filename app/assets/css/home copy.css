@@ -8,7 +8,6 @@
 }
 .sub-text {
     font-size: 0.75em;
-    color: black;
 }
 /* ---------------------------------OUTER DIV------------------------------------*/
 
@@ -48,7 +47,14 @@
   padding: 20px 0;
   font-size: 30px;
 }
-/* ---------------------------------PROGRESS------------------------------------*/
+
+/* .project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    margin-top: 130px;
+}
+*/
 
 /* ---------------------------------NEW COURSE------------------------------------*/
 .item1-new-course { 
@@ -86,53 +92,7 @@
   font-size: 30px;
 }
 
-/* ---------------------------------NEW COURSE------------------------------------*/
-
-/* ---------------------------------LIFE STYLE------------------------------------*/
-.item1-new-course { 
-    grid-area: course1; 
-    border-radius: 5px;
-}
-/* .item2-new-course { 
-    grid-area: course2; 
-    border-radius: 5px;
-}
-
-.item3-new-course { 
-    grid-area: course3;
-    border-radius: 5px;
- } */
-
-/* .my-new-courses-home {
-    border-radius: 10px;
-} */
-
-/* .grid-container2-home {
-  display: grid;
-  grid-template-areas:   
-    'course1 course1 course2 course2 course3 course3'; */
-  /* grid-gap: 10px;
-  padding: 5px; */
-  /* color: black; */
-  /* grid-template-columns: repeat(3fr, 250px); */
-/* } */
-
-/* .grid-container2-home > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-} */
-
-/* ---------------------------------LIFE STYLE------------------------------------*/
-
-.project-grid {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
-    /* margin-top: 130px; */
-}
-
+/* ---------------------------------PROGRESS------------------------------------*/
 
 /* ---------------------------------BOX MODEL------------------------------------*/
 .box  {
@@ -144,6 +104,7 @@
     width: 100%;
 } 
 /* ---------------------------------BOX MODEL------------------------------------*/
+
 
 
 @media only screen and (max-width: 600px) {
