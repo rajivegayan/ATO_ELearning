@@ -14,6 +14,9 @@ angular.
             when('/mylearning', {
                 template: '<mylearning-component></mylearning-component>'
             }).
+            when('/achivements', {
+                template: '<achivements-component></achivements-component>'
+            }).
             otherwise('/home');
         }
     ]);

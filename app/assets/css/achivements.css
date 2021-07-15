@@ -1,0 +1,23 @@
+.achivements-container {
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 1rem;
+}
+
+.project-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+    /* margin-top: 130px; */
+}
+
+
+/* ---------------------------------BOX MODEL------------------------------------*/
+.box  {
+    background-color: #8a8b8b;
+    padding: 130px;
+    margin: 25px;
+}
+.box > img {
+    width: 100%;
+} 

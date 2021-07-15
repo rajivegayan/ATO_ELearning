@@ -3,5 +3,5 @@ angular.module('mylearningComponent', ['ngRoute']);
 angular.
     module('mylearningComponent').
     component('mylearningComponent', {
-        templateUrl: 'components/mylearning/mylearningComponent.template.html',
+        templateUrl: 'components/mylearning/mylearning.template.html',
     });

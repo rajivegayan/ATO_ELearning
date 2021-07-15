@@ -6,7 +6,9 @@ var $atoEAcademy =  angular.module('atoEacademy', [
   'headerComponent',
   'footerComponent',
   'homeComponent',
-  'categoriesComponent'
+  'categoriesComponent',
+  'mylearningComponent',
+  'achivementsComponent'
   // 'core', // Getting core stuff :P
   // 'ngAnimate', // Animationa
 ]);
