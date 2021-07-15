@@ -1,10 +1,14 @@
+
+/* ---------------------------------OUTER DIV------------------------------------*/
 .main-outer-home {
     margin-top: 90px;
     background-color:#e0e0e0;
     padding: 50px 50px;
     font-size: 1rem;
 }
+/* ---------------------------------OUTER DIV------------------------------------*/
 
+/* ---------------------------------PROGRESS------------------------------------*/
 .item1-progress { 
     grid-area: progress; 
     border-radius: 10px;
@@ -28,8 +32,8 @@
   grid-template-areas:
     'progress progress progress skils skils skils'
     'progress progress progress awards awards awards';
-  grid-gap: 20px;
-  padding: 10px;
+  /* grid-gap: 10px;
+  padding: 5px; */
   color: black;
   grid-template-columns: repeat(3fr, 250px);
 }
@@ -49,6 +53,45 @@
 }
 */
 
+/* ---------------------------------NEW COURSE------------------------------------*/
+.item1-new-course { 
+    grid-area: course1; 
+    border-radius: 5px;
+}
+.item2-new-course { 
+    grid-area: course2; 
+    border-radius: 5px;
+}
+
+.item3-new-course { 
+    grid-area: course3;
+    border-radius: 5px;
+ }
+
+.my-new-courses-home {
+    border-radius: 10px;
+}
+
+.grid-container2-home {
+  display: grid;
+  grid-template-areas:   
+    'course1 course1 course2 course2 course3 course3';
+  /* grid-gap: 10px;
+  padding: 5px; */
+  color: black;
+  /* grid-template-columns: repeat(3fr, 250px); */
+}
+
+.grid-container2-home > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* ---------------------------------PROGRESS------------------------------------*/
+
+/* ---------------------------------BOX MODEL------------------------------------*/
 .box  {
     background-color: #8a8b8b;
     padding: 130px;
@@ -57,3 +100,11 @@
 .box > img {
     width: 100%;
 } 
+/* ---------------------------------BOX MODEL------------------------------------*/
+
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+
+}
